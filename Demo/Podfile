@@ -7,6 +7,5 @@ target "PhotoBrowserDemo" do
 
 pod 'SDWebImage'
 pod 'DACircularProgress'
-pod 'pop'
 
 end

@@ -124,11 +124,6 @@ If you want to keep the interface shown when the user is scrolling :
 browser.autoHideInterface = NO;
 ```
 
-You can use a smooth [pop](https://github.com/facebook/pop) animation when presenting and dismissing a photo:
-``` objective-c
-browser.usePopAnimation = YES;
-```
-
 If the presenting view controller doesn't have a status bar, in some cases you can force it to be hidden:
 ``` objective-c
 browser.forceHideStatusBar = YES;
@@ -183,7 +178,6 @@ Just add `pod 'IDMPhotoBrowser'` to your Podfile.
 
 - [SDWebImage](https://github.com/rs/SDWebImage)
 - [DACircularProgress](https://github.com/danielamitay/DACircularProgress)
-- [pop](https://github.com/facebook/pop)
 
 ## Licence
 

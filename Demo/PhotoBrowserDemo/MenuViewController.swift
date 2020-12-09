@@ -102,7 +102,6 @@ extension MenuViewController {
 		browser.displayActionButton = false
 		browser.displayArrowButton = true
 		browser.displayCounterLabel = true
-		browser.usePopAnimation = true
 		browser.scaleImage = buttonSender?.currentImage
 		browser.dismissOnTouch = true
 		
