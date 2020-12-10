@@ -22,6 +22,10 @@ let package = Package(
                 .byName(name: "DACircularProgress"),
             ],
             path: "Classes",
+            resources: [
+                Resource.process("IDMPBLocalizations.bundle"),
+                Resource.process("IDMPhotoBrowser.bundle"),
+            ],
             publicHeadersPath: "."
         ),
         .testTarget(
