@@ -12,7 +12,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/SDWebImage/SDWebImage", from: "5.10.0"),
-        .package(url: "https://github.com/tgymnich/DACircularProgress", .branch("master")),
+        .package(url: "https://github.com/tishin/DACircularProgress", from: "2.4.0"),
     ],
     targets: [
         .target(
